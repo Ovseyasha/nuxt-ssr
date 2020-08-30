@@ -17,7 +17,8 @@
 
 <script>
 export default {
-
+  // для защиты страницы от не зареганых и не только
+  middleware: ['auth']
 }
 </script>
 

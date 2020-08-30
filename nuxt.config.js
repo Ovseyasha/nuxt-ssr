@@ -25,6 +25,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  loading: { color: '#023E86' },
   /*
   ** Global CSS
   */
@@ -54,7 +55,25 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@nuxtjs/axios'
+    // '@nuxtjs/firebase',
+    // {
+    //   config: {
+    //     apiKey: 'AIzaSyAXhcfNwaMXbxojstXtc1cm2rxtQpHYhiw',
+    //     authDomain: 'nuxt-first-app-97f76.firebaseapp.com',
+    //     databaseURL: 'https://nuxt-first-app-97f76.firebaseio.com',
+    //     projectId: 'nuxt-first-app-97f76',
+    //     storageBucket: 'nuxt-first-app-97f76.appspot.com',
+    //     messagingSenderId: '808461920742',
+    //     appId: '1:808461920742:web:0d46867b7dddec89300e27',
+    //     measurementId: 'G-6PNPLKKBNQ'
+    //   },
+    //   onFirebaseHosting: true,
+    //   services: {
+    //     auth: true
+    //   }
+    // }
   ],
   /*
   ** Build configuration
